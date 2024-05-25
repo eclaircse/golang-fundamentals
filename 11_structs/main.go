@@ -18,5 +18,6 @@ func main() {
 
 	fmt.Println(user)
 	fmt.Printf("User: %+v\n", user) // for more detailed output
+	fmt.Printf("Name: %v\n", user.name)
 
 }
